@@ -24,6 +24,6 @@ class CatalogController extends Controller
         $model->description = "burger";
         $model->customer_id = 1;
         $model->save();
-
+        //fsdfasd
     }
 }
