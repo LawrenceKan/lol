@@ -16,7 +16,7 @@ class CatalogController extends Controller
         return $this->render('index',['arr'=>$products]);
     }
 
-    public function actionAdd(){
+    public function actionAdd( ){
         $model = new Product();
         $model->name = "burger";
         $model->price = 120;
